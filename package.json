@@ -1,0 +1,17 @@
+{
+  "name": "importtest",
+  "version": "1.0.0",
+  "description": "Import testing in html",
+  "main": "./out/index.js",
+  "scripts": {
+    "start" : "npx tsc && node out/index.js"
+  },
+  "author": "DJ3125",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "html-loader": "^5.1.0",
+    "typescript": "^5.7.2"
+  },
+  "type": "module"
+}
