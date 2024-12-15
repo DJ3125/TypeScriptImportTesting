@@ -4,7 +4,7 @@
 import * as http from "http";
 import * as fs from "fs";
 
-const PORT: number=8080; 
+const PORT: number = parseInt(process.argv[2]);
 
 http.createServer(handleRequest).listen(PORT);
 

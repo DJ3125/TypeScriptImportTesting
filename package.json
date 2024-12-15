@@ -4,7 +4,7 @@
   "description": "Import testing in html",
   "main": "./out/index.js",
   "scripts": {
-    "start" : "npx tsc && node out/index.js"
+    "start" : "powershell ./Run"
   },
   "author": "DJ3125",
   "license": "ISC",
